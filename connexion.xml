@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/depot"
+        tools:layout_editor_absoluteY="-101dp"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titre :(*)"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="142dp"
+        android:fontFamily="sans-serif-black"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Catégorier :(*)"
+        tools:layout_editor_absoluteX="31dp"
+        android:fontFamily="sans-serif-black"
+        tools:layout_editor_absoluteY="204dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Secteur :"
+        android:fontFamily="sans-serif-black"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="263dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:fontFamily="sans-serif-black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    Type de contrat:"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="324dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Description :(*)"
+        android:fontFamily="sans-serif-black"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="377dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ville :"
+        android:fontFamily="sans-serif-black"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="575dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/gris"
+
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="604dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/suivant"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Les champs (*) sont obligatoires"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="705dp"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="307dp"
+        android:layout_height="49dp"
+
+        android:backgroundTint="#ADA6B5"
+        android:backgroundTintMode="src_in"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="201dp"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="207dp"
+        android:layout_height="49dp"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="255dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="246dp"
+        android:layout_height="148dp"
+        android:ems="10"
+        android:hint="  Description"
+        android:background="@drawable/input"
+        android:backgroundTint="#ADA6B5"
+        android:backgroundTintMode="src_in"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="377dp"
+        tools:ignore="MissingConstraints"/>
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="211dp"
+        android:layout_height="49dp"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="574dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="259dp"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="  Votre Titre"
+        android:background="@drawable/input"
+        android:backgroundTint="#ADA6B5"
+        android:backgroundTintMode="src_in"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="129dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="198dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="  Votre type"
+        android:background="@drawable/input"
+        android:backgroundTint="#ADA6B5"
+        android:backgroundTintMode="src_in"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="319dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/suivant"
+        tools:layout_editor_absoluteY="616dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:text="Suivant"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="315dp"
+        tools:layout_editor_absoluteY="647dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
